@@ -27,6 +27,7 @@ div.row {
 	width: 100%;
 	align-items: center;
 	justify-content: center;
+	gap: 20px;
 }
 div.project-panel {
 	border: 2px solid blue;
