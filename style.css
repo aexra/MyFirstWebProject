@@ -28,8 +28,9 @@ div.row {
 	align-items: center;
 	justify-content: center;
 }
-div.project {
-	
+div.project-panel {
+	border: 2px solid blue;
+	border-radius: 25px;
 }
 img.icon {
 	height: 75px;
