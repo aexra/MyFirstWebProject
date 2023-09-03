@@ -3,80 +3,153 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>About-me page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Outfit&family=Permanent+Marker&family=Rajdhani&family=Tektur&display=swap" rel="stylesheet">
+	<link href="css/swiper-bundle.min.css" rel="stylesheet">
 </head>
 <body style="margin: 0;">
-	<div id="hello" class="parallax">
-		<div class="parallax-content">
-	   		<h1>Hello</h1>
-   		</div>
-   		<div class="mask"></div>
-	</div>
-	<div id="github-page" class="parallax">
-		<div class="parallax-content">
-		   	<h1>Me on GitHub</h1>
-		   	<div class="row">
-			   	<a href="https://github.com/aexra" target="_blank"><img class="icon" src="https://cdn2.iconfinder.com/data/icons/social-flat/512/github-1024.png"></a>
-			</div>
-	   	</div>
-   		<div class="mask"></div>
-	</div>
-	<div id="skills" class="parallax">
-   		<div class="parallax-content">
-   			<h1>Skills</h1>
-   			<div class="row">
-   				<img class="icon" src="https://hackthestuff.com/uploads/subCategories/logo-git.png">
-   				<img class="icon" src="https://sdtimes.com/wp-content/uploads/2018/03/cpppp.png">
-   				<img class="icon" src="https://user-images.githubusercontent.com/77635828/113378520-9d8d9a80-934d-11eb-958e-23f4c2bb8bcd.png">
-   				<img class="icon" src="https://beecoder.org/media/logo/python_beecoder.org.png">
-   				<img class="icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-1024.png">
-   				<img class="icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-1024.png">
-   				<img class="icon" src="https://cdn.zspace.com/applications/icons/U_ProfileIcon_Alpha_Positive_500x500.png">
-   				<img class="icon" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/godot_93806.png">
-   				<!-- <img class="icon" src=""> -->
-   				<!-- <img class="icon" src=""> -->
-   				<!-- <img class="icon" src=""> -->
-   			</div>
-   		</div>
-   		<div class="mask"></div>
-	</div>
-	<div id="projects" class="parallax">
-   		<div class="parallax-content">
-   			<h1>Projects</h1>
-   			<div class="row">
-   				<div class="project-panel" style="background: whitesmoke;">
-   					Text
-   				</div>
-   				<div class="project-panel">
-   					Text
-   				</div>
-   			</div>
-   		</div>
-   		<div class="mask"></div>
-	</div>
-	<div id="contacts" class="parallax">
-   		<div class="parallax-content">
-   			<h1>Contact me</h1>
-   			<div class="row">
-   				<a href="https://vk.com/idchelovekk" target="_blank">
-   					<img class="icon" src="https://static.tildacdn.com/tild3632-3161-4832-a266-386264613038/vk.png">
-   				</a>
-   				<a href="https://discordapp.com/users/293006354816303104" target="_blank">
-   					<img class="icon" src="https://img.icons8.com/plasticine/452/discord-new-logo.png">
-   				</a>
-   				<a href="https://t.me/FlyingReptile" target="_blank">
-   					<img class="icon" src="https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_telegram_Airplane_Air_plane_paper_airplane-22-1024.png">
-   				</a>
-   			</div>
-   		</div>
-   		<div class="mask"></div>
-	</div>
-	<div id="footer">
-		<a href="https://github.com/aexra/MyFirstWebProject.git" target="_blank">Repository of this amazing page</a>
+	<div class="main-container">
+		<div id="hello" class="parallax">
+			<div class="parallax-content">
+		   		<h1>Hello</h1>
+	   		</div>
+	   		<div class="mask"></div>
+		</div>
+		<div id="github-page" class="parallax">
+			<div class="parallax-content">
+			   	<h1>Me on GitHub</h1>
+			   	<div class="row">
+				   	<a href="https://github.com/aexra" target="_blank"><img class="icon" src="https://cdn2.iconfinder.com/data/icons/social-flat/512/github-1024.png"></a>
+				</div>
+		   	</div>
+	   		<div class="mask"></div>
+		</div>
+		<div id="skills" class="parallax">
+	   		<div class="parallax-content">
+	   			<h1>Skills</h1>
+	   			<div class="row">
+	   				<img class="icon" src="https://hackthestuff.com/uploads/subCategories/logo-git.png">
+	   				<img class="icon" src="https://sdtimes.com/wp-content/uploads/2018/03/cpppp.png">
+	   				<img class="icon" src="https://user-images.githubusercontent.com/77635828/113378520-9d8d9a80-934d-11eb-958e-23f4c2bb8bcd.png">
+	   				<img class="icon" src="https://beecoder.org/media/logo/python_beecoder.org.png">
+	   				<img class="icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-1024.png">
+	   				<img class="icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-1024.png">
+	   				<img class="icon" src="https://cdn.zspace.com/applications/icons/U_ProfileIcon_Alpha_Positive_500x500.png">
+	   				<img class="icon" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/godot_93806.png">
+	   				<!-- <img class="icon" src=""> -->
+	   				<!-- <img class="icon" src=""> -->
+	   				<!-- <img class="icon" src=""> -->
+	   			</div>
+	   		</div>
+	   		<div class="mask"></div>
+		</div>
+		<div id="projects" class="parallax">
+	   		<div class="parallax-content">
+	   			<h1>Projects</h1>
+	   			<div class="row">
+		   			<div class="slide-container swiper">
+		   				<div class="slide-content">
+		   					<div class="card-wrapper swiper-wrapper">
+		   						<div class="card swiper-slide">
+		   							<div class="image-content">
+		   								<span class="overlay"></span>
+		   								
+		   								<div class="card-image">
+		   									<img src="resources/artwork/projects-thumbnails/Vertex.jpg" alt="" class="card-img">
+		   								</div>
+		   							</div>
+		   							<div class="card-content">
+		   								<h2 class="title">My Dumb Program 2.0</h2>
+		   								<p class="description">My first program written on C++ using Win32 API<br>It's a simple graph editor</p>
+
+		   								<button class="button">View Repo</button>
+		   							</div>
+		   						</div>
+		   						<div class="card swiper-slide">
+		   							<div class="image-content">
+		   								<span class="overlay"></span>
+		   								
+		   								<div class="card-image">
+		   									<img src="resources/artwork/projects-thumbnails/Vertex.jpg" alt="" class="card-img">
+		   								</div>
+		   							</div>
+		   							<div class="card-content">
+		   								<h2 class="title">My Dumb Program 2.0</h2>
+		   								<p class="description">My first program written on C++ using Win32 API<br>It's a simple graph editor</p>
+
+		   								<button class="button">View Repo</button>
+		   							</div>
+		   						</div>
+		   						<div class="card swiper-slide">
+		   							<div class="image-content">
+		   								<span class="overlay"></span>
+		   								
+		   								<div class="card-image">
+		   									<img src="resources/artwork/projects-thumbnails/Vertex.jpg" alt="" class="card-img">
+		   								</div>
+		   							</div>
+		   							<div class="card-content">
+		   								<h2 class="title">My Dumb Program 2.0</h2>
+		   								<p class="description">My first program written on C++ using Win32 API<br>It's a simple graph editor</p>
+
+		   								<button class="button">View Repo</button>
+		   							</div>
+		   						</div>
+		   						<div class="card swiper-slide">
+		   							<div class="image-content">
+		   								<span class="overlay"></span>
+		   								
+		   								<div class="card-image">
+		   									<img src="resources/artwork/projects-thumbnails/Vertex.jpg" alt="" class="card-img">
+		   								</div>
+		   							</div>
+		   							<div class="card-content">
+		   								<h2 class="title">My Dumb Program 2.0</h2>
+		   								<p class="description">My first program written on C++ using Win32 API<br>It's a simple graph editor</p>
+
+		   								<button class="button">View Repo</button>
+		   							</div>
+		   						</div>
+		   					</div>
+		   				</div>
+
+		   				<div class="swiper-pagination swiper-navBtn"></div>
+		   				<div class="swiper-button-next swiper-navBtn"></div>
+		   				<div class="swiper-button-prev"></div>
+		   			</div>
+		   		</div>
+	   		</div>
+	   		<div class="mask"></div>
+		</div>
+		<div id="contacts" class="parallax">
+	   		<div class="parallax-content">
+	   			<h1>Contact me</h1>
+	   			<div class="row">
+	   				<a href="https://vk.com/idchelovekk" target="_blank">
+	   					<img class="icon" src="https://static.tildacdn.com/tild3632-3161-4832-a266-386264613038/vk.png">
+	   				</a>
+	   				<a href="https://discordapp.com/users/293006354816303104" target="_blank">
+	   					<img class="icon" src="https://img.icons8.com/plasticine/452/discord-new-logo.png">
+	   				</a>
+	   				<a href="https://t.me/FlyingReptile" target="_blank">
+	   					<img class="icon" src="https://cdn4.iconfinder.com/data/icons/social-media-and-logos-11/32/Logo_telegram_Airplane_Air_plane_paper_airplane-22-1024.png">
+	   				</a>
+	   			</div>
+	   		</div>
+	   		<div class="mask"></div>
+		</div>
+		<div id="footer">
+			<a href="https://github.com/aexra/MyFirstWebProject.git" target="_blank">Repository of this amazing page</a>
+		</div>
 	</div>
 </body>
+
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
 </html>
