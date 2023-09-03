@@ -1,0 +1,65 @@
+div.parallax {
+	background-image: url(https://d1yn1kh78jj1rr.cloudfront.net/image/thumbnail/rDtN98Qoishumwih/minecraftpaper-02-091815-727_thumb.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 60px;
+    align-items: center;
+    position: relative;
+}
+div.parallax .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    z-index: 2;
+}
+div.parallax-content {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	z-index: 3;
+}
+div.row {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+img.icon {
+	height: 75px;
+}
+div#hello {
+	font-family: 'Outfit', sans-serif;
+	background-image: url("resources/artwork/main-bgs/hello.jpeg");
+	line-height: 300px;
+}
+div#github-page {
+	font-family: 'Outfit', sans-serif;
+	background-image: url("resources/artwork/main-bgs/github.jpeg");
+}
+div#skills {
+	font-family: 'Outfit', sans-serif;
+	background-image: url(resources/artwork/main-bgs/skills.gif);
+}
+div#projects {
+	font-family: 'Outfit', sans-serif;
+	background-image: url(resources/artwork/main-bgs/projects.jpg);
+}
+div#contacts {
+	font-family: 'Outfit', sans-serif;
+	background-image: url(resources/artwork/main-bgs/contacts.jpg);
+}
+div#footer {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	background-color: #242424;
+	height: 150px;
+	line-height: 100px;
+	color: darkgray;
+}
+div#footer a {
+	color: darkgray;
+}
