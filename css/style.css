@@ -47,6 +47,13 @@ div.slide-container {
 div.slide-content {
 	margin: 0 40px;
 	overflow: hidden;
+	--add-bottom: 50px;
+	--swiper-pagination-bullet-inactive-opacity: 1;
+	--swiper-pagination-bullet-inactive-color: #FFF;
+	padding-bottom: var(--add-bottom);
+}
+div.slide-content [class^="swiper-button-"]{
+	top: calc(50% - var(--add-bottom));
 }
 div.card {
 	width: 450px;
@@ -170,7 +177,7 @@ div#skills {
 div#projects {
 	font-family: 'Outfit', sans-serif;
 	background-image: url(../resources/artwork/main-bgs/projects.jpg);
-	height: 760px;
+	height: 800px;
 }
 div#contacts {
 	font-family: 'Outfit', sans-serif;

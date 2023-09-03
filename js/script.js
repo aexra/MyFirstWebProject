@@ -4,6 +4,7 @@ const swiper = new Swiper('.slide-content', {
   spaceBetween: 30,
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
   },
   navigation: {
     nextEl: '.swiper-button-next',
