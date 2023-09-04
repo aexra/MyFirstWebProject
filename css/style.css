@@ -56,6 +56,7 @@ div.slide-content [class^="swiper-button-"]{
 	top: calc(50% - var(--add-bottom));
 }
 div.card {
+	height: 450px;
 	width: 450px;
 	border-radius: 25px;
 	background: #FFF;
