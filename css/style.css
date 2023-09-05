@@ -170,6 +170,7 @@ div#hello {
 div#github-page {
 	font-family: 'Outfit', sans-serif;
 	background-image: url("../resources/artwork/main-bgs/github.jpeg");
+	height: 550px;
 }
 div#skills {
 	font-family: 'Outfit', sans-serif;
